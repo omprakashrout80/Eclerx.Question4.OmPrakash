@@ -43,7 +43,7 @@ namespace Eclerx.Question4.OmPrakash
                     MessageBox.Show("Invalid Salary");
                     }
                 }
-                public void ClearEmployee()
+                private void ClearEmployee()
                 {
                     TxtEmployeeName.Text="";
                     TxtEmployeeNo.Text="";
