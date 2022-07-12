@@ -45,9 +45,9 @@ namespace Eclerx.Question4.OmPrakash
                 }
                 public void ClearEmployee()
                 {
-                    TxtEmployeeName.Clear();
-                    TxtEmployeeNo.Clear();
-                    TxtSalary.Clear();
+                    TxtEmployeeName.Text="";
+                    TxtEmployeeNo.Text="";
+                    TxtSalary.Text="";
                 }
             }
         }
