@@ -34,7 +34,7 @@ namespace Eclerx.Question4.OmPrakash
                     cmd.Parameters.AddWithValue("@Employeesalary",TxtSalary.Text);
 
                     MessageBox.Show("New Employee Created");
-                    if(TxtSalary.Text >25000 && TxtSalary == 25000 )
+                    if(TxtSalary.Text >=25000 )
                     {
                         MessageBox.Show("valid Salary");
                     }
